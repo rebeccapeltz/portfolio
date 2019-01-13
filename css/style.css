@@ -6,7 +6,7 @@
 
 :root {
   --main-bg-color: white;
-  --main-text-color:  #353535;
+  --main-text-color: #353535;
   --container-bg-color: rgb(238, 238, 238);
   --nav-bg-color: black;
   --nav-text-color: lightgray;
@@ -27,7 +27,7 @@ li a {
 }
 
 section h3 {
-  margin-top:0;
+  margin-top: 0;
 }
 
 p {
@@ -54,7 +54,8 @@ p {
   background: #eeeeee;
 }
 
-.container>nav,section {
+.container>nav,
+section {
   padding: 20px;
 }
 
@@ -75,7 +76,7 @@ nav ul {
 }
 
 nav a {
-  color:  var(--nav-text-color);
+  color: var(--nav-text-color);
   text-decoration: none;
 }
 
@@ -105,7 +106,7 @@ nav .active a {
 /* media query for grid layout */
 @media only screen and (min-width: 600px) {
 
-  
+
   /* nav styles */
   nav ul li {
     display: inline-block;
@@ -121,8 +122,9 @@ nav .active a {
 
   header {
     padding: 0 20px;
-    
+
   }
+
   .header {
     width: 100%;
     height: auto;
@@ -173,9 +175,10 @@ nav .active a {
 div.mason {
   margin: 0 2%;
 }
+
 .mason img {
   width: 100%;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 .mason article {
@@ -283,63 +286,81 @@ icon-bar ul {
 }
 
 /* embedded video responsive */
-.video-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-.video-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /* credits */
 .credits ul {
-  list-style-type:none;
+  list-style-type: none;
   padding: 0;
 }
+
 .credits a {
   font-size: .7em;
   text-decoration: none;
-  color:black;
+  color: black;
 }
+
 .credits a:hover {
   background-color: black;
   color: white;
 }
 
 .main-project {
-  text-align:center;
+  text-align: center;
 }
-.capstone img{
-    border-radius: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 62%;
+
+.capstone img {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
 }
 
 .project-links {
-  list-style-type:none;
-  text-align:center;
+  list-style-type: none;
+  text-align: center;
 }
+
 .project-links li {
   display: inline-block;
 }
+
 .project-links .github {
   color: black;
 }
-.circle{
-	border-radius: 50%;
-	margin: 0.15em;
-	font-size: 3em;
-  }
-  .small-circle{
-    border-radius: 50%;
-    margin: 0.15em;
-    font-size: 2em;
-    }
+
+.circle {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 3em;
+}
+
+.small-circle {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 2em;
+}
+
+.home-icon {
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+}
+.home-icon i{
+  font-size: 3em;
+  color: black;
+}
