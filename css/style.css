@@ -73,6 +73,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 nav a {
@@ -228,7 +229,7 @@ ul.copyright {
 
 
 /* social links */
-.icon-bar {
+.fixed-icon-bar {
   position: fixed;
   top: 1%;
   right: 2%;
@@ -363,4 +364,16 @@ icon-bar ul {
 .home-icon i{
   font-size: 3em;
   color: black;
+}
+
+.self-picture {
+  position: absolute;
+  right: 1%;
+  padding: 0;
+}
+.self-picture img{
+  width: 3em;
+  height: 3em;
+  display: inline-block;
+  border-radius: 50px;
 }
